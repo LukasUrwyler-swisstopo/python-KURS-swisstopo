@@ -1,11 +1,14 @@
 import math
 
-def kreisfunktion1(Radius):
-    fläche = (Radius * Radius) * math.pi
-    umfang = (Radius * 2) * math.pi
-    print(f"der Durchmesser des Kreises ist {Radius * 2} m")
-    print(f"die Fläche des Kreises ist {fläche:.2f} m2")
-    print(f"der Umfang des Kreises ist {umfang:.2f} m")
+
+def fläche(Radius):
+    return (Radius * Radius) * math.pi
+
+def umfang(Radius):
+    return (Radius * 2) * math.pi
+
+def durchmesser(Radius):
+    return Radius * 2
 
 while True:
     try:
@@ -14,4 +17,10 @@ while True:
     except ValueError:
         print("Ungültige Eingabe, bitte eine Zahl eingeben.")
 
-kreisfunktion1(Radius)
+Fläche_res = fläche(Radius)
+Umfang_res = umfang(Radius)
+durchmesser_res = durchmesser(Radius)
+
+print(Fläche_res)
+print(Umfang_res)
+print(durchmesser_res)
