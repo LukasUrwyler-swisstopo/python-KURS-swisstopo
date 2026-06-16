@@ -8,3 +8,8 @@
 - Git clone (**Path** *C:\Users\Lukas Urwyler\Documents\01_GeoData\99_pyKurse\02_swisstopo\python-KURS-swisstopo*)
 
 > [Wiki - Python Kurs](https://github.com/hansmannj/py-tutorial/wiki)
+
+## Key-Combos:
+ctrl + shift + c = Script abbruch
+ctrl + k + c = ausgeklammert / deaktiviert
+ctrl + k + u = " rückgängig
