@@ -1,6 +1,3 @@
-# python-KURS-swisstopo
-Python Kurs - swisstopo JürgHansmann
-
 # Readme
 
 Dieses Repository enthält das Python-Tutorial als [Wiki](https://github.com/hansmannj/py-tutorial/wiki) und sämtliche Beispiele und Lösungen.
